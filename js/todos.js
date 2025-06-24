@@ -52,8 +52,8 @@ function renderData() {
     todoList.insertAdjacentHTML(
       "beforeend",
       `<li class="list--datas" data-id="${i}"><span class="text__list__item">${t}</span>
-      <span><button class="btn-edit">Edit</button>
-      <button class="btn-delete">Delete</button></span>
+      <span><button class="btn-edit btn-success">✒️Edit</button>
+      <button class="btn-delete btn-delete">🗑️Delete</button></span>
       </li>`
     );
   });
