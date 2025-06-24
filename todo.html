@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todos</title>
+    <link rel="stylesheet" href="css/todos.css" />
+  </head>
+  <body>
+    <h1>My Todo List</h1>
+    <div class="todo--text"><input type="text" id="txttodo" /></div>
+    <div class="todo--btn"><button class="btn-save">Save</button></div>
+    <br />
+    <div class="todo--list">
+      <ul class="todo--data"></ul>
+    </div>
+
+    <div class="modal">
+      <div class="modal__title">
+        <h1>Update Todo</h1>
+      </div>
+      <div class="modal__body">
+        <input type="text" id="txtUpdate" />
+        <button class="btn-update">Update</button>
+      </div>
+    </div>
+  </body>
+  <script src="js/todos.js"></script>
+</html>
